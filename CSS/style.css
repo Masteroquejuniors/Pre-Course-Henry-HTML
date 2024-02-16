@@ -1,0 +1,70 @@
+body {
+    background-color: chocolate;
+}
+h1 {
+    text-align: center;
+}
+#centerSpan {
+text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+h3 {
+    background-color: blue;
+}
+.principal {
+    background-color: chartreuse;
+    font-size: 14px;
+}
+#principal {
+    background-color: crimson;
+    font-size: 24px;
+}
+img {
+    width: 250px;
+    height: 200px;
+}
+h2 {
+    font-size: 2em; /* la medida 2em es el doble de grande que la original por eso h2 llega a ser igual a h1 */
+}
+#titulo {
+    border: 2px solid greenyellow;
+    width: 60vw; /* viewport width es el 65 por ciento de cualquier pantalla que se vea */
+    margin: auto; /* margin hace que el contenido se despegue de los otros contenidos que lo rodean. Margin auto por ejemplo lo centra */
+    padding: 3em; /* El padding hace que se despegue la parte interna */
+}
+.cards{
+    border: 2px solid whitesmoke;
+    width: fit-content;
+    padding: 2px 2em 2px 2em;
+    border-radius: 10px;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+.cards:hover {
+    background-color: darkturquoise;
+}
+#cards-container {
+width: 85vw;
+margin: auto;
+margin-top: 1.5em;
+border: 5px solid yellow;
+border-radius: 15px;
+padding: 2em;
+display: flex; /* esto hace que se los contenidos se unan en bloque horiontal */
+flex-direction: row; /* esto hace que el contenido se posicione en fila */
+justify-content: space-around; /* esto hace que los 3 contenidos o elementos se posicionen o distribuya correctamente */
+}
+p {
+    text-align: center;
+}
+#centerLinkTag {
+    text-align: center;
+}
